@@ -22,10 +22,10 @@ const words = [
     { text: "Concepts", imgPath: "/images/concepts.svg" },
     { text: "Designs", imgPath: "/images/designs.svg" },
     { text: "Code", imgPath: "/images/code.svg" },
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Ideas2", imgPath: "/images/ideas.svg" },
+    { text: "Concepts2", imgPath: "/images/concepts.svg" },
+    { text: "Designs2", imgPath: "/images/designs.svg" },
+    { text: "Code2", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
@@ -38,36 +38,47 @@ const counterItems = [
 const logoIconsList = [
     {
         imgPath: "/images/logos/company-logo-1.png",
+        name: '1'
     },
     {
         imgPath: "/images/logos/company-logo-2.png",
+        name: '2'
     },
     {
         imgPath: "/images/logos/company-logo-3.png",
+        name: '3'
     },
     {
         imgPath: "/images/logos/company-logo-4.png",
+        name: '4'
     },
     {
         imgPath: "/images/logos/company-logo-5.png",
+        name: '5'
     },
     {
         imgPath: "/images/logos/company-logo-6.png",
+        name: '6'
     },
     {
         imgPath: "/images/logos/company-logo-7.png",
+        name: '7'
     },
     {
         imgPath: "/images/logos/company-logo-8.png",
+        name: '8'
     },
     {
         imgPath: "/images/logos/company-logo-9.png",
+        name: '9'
     },
     {
         imgPath: "/images/logos/company-logo-10.png",
+        name: '10'
     },
     {
         imgPath: "/images/logos/company-logo-11.png",
+        name: '11'
     },
 ];
 
