@@ -30,40 +30,41 @@ const TechStack = () => {
                 <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I Bring to the Table"/>
 
                 <div className="tech-grid">
-                    {techStackIcons.map((techStackIcon) => (
-                        <div key={techStackIcon.name}
-                             className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg">
-                            <div className="tech-card-animated-bg" />
-                            <div className="tech-card-content">
-                                <div className="tech-icon-wrapper">
-                                    <TechIcon model={techStackIcon}/>
-                                </div>
-
-                                <div className="padding-x w-full">
-                                    <p>{techStackIcon.name}</p>
-                                </div>
-                            </div>
-                            {/*{icon.name}*/}
-                        </div>
-                    ))}
-
-                    {/* Image part */}
-                    {/*{techStackImgs.map((techStackIcon, index) => (*/}
-                    {/*    <div*/}
-                    {/*        key={index}*/}
-                    {/*        className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"*/}
-                    {/*    >*/}
-                    {/*        <div className="tech-card-animated-bg"/>*/}
+                    {/* 3D part */}
+                    {/*{techStackIcons.map((techStackIcon) => (*/}
+                    {/*    <div key={techStackIcon.name}*/}
+                    {/*         className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg">*/}
+                    {/*        <div className="tech-card-animated-bg" />*/}
                     {/*        <div className="tech-card-content">*/}
                     {/*            <div className="tech-icon-wrapper">*/}
-                    {/*                <img src={techStackIcon.imgPath} alt=""/>*/}
+                    {/*                <TechIcon model={techStackIcon}/>*/}
                     {/*            </div>*/}
+
                     {/*            <div className="padding-x w-full">*/}
                     {/*                <p>{techStackIcon.name}</p>*/}
                     {/*            </div>*/}
                     {/*        </div>*/}
+                    {/*        /!*{icon.name}*!/*/}
                     {/*    </div>*/}
                     {/*))}*/}
+
+                     {/*Image part*/}
+                    {techStackImgs.map((techStackIcon, index) => (
+                        <div
+                            key={index}
+                            className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+                        >
+                            <div className="tech-card-animated-bg"/>
+                            <div className="tech-card-content">
+                                <div className="tech-icon-wrapper">
+                                    <img src={techStackIcon.imgPath} alt=""/>
+                                </div>
+                                <div className="padding-x w-full">
+                                    <p>{techStackIcon.name}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
