@@ -59,7 +59,6 @@ const Hero = () => {
                         <a style={{ color: "white", fontSize: "20px" }} download href="/resume/Abin_Joseph_Resume.pdf" >
                             Download Resume
                         </a>
-
                     </div>
                 </header>
 
